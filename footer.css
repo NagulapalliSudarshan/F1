@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}

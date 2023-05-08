@@ -1,0 +1,19 @@
+.allTeams{
+    padding: 10px 80px;
+}
+
+.gridTeam{
+    padding: 20px;
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+    border-bottom-left-radius: 15px;
+}
+.gridTeam a{
+    text-decoration: none;
+    color: red;
+
+}
+.gridTeam a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}

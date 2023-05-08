@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+#div1 {
+    font-family: 'Londrina Outline', cursive;
+    color: black;
+    height: 600px;
+    background-image:url(https://malayachts.ae/wp-content/uploads/2022/08/f1-prix-bg.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Intro{
+  font-size: 150px;
+  color: red;
+}
+
+  .div2{
+    padding: 20px 80px;
+  }
+
+  .InnerDiv2_1{
+    padding: 10px;
+    border-top: 5px solid red;
+    border-right: 5px solid red;
+    border-top-right-radius:45px ; 
+  }
+  .InnerDiv2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .InnerDiv2 img{
+    padding: 10px;
+    /* border: 2px solid black; */
+  }
+
+  .containers{
+    margin: 10px;
+    padding: 5px;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius:15px 
+  }
+
+  

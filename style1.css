@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  font-family: "Nanum Gothic", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* navigation bar 1 design  */
+.n1 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.n1 ul {
+  display: flex;
+  flex-direction: row;
+}
+#u1 {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 10px;
+}
+#u1 li {
+  margin-right: 20px;
+}
+
+#u1 li img {
+  width: 35px;
+}
+
+#u2 {
+  text-decoration: none;
+  list-style: none;
+}
+#u2 li {
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+}
+#u2 li img {
+  width: 80px;
+}
+#new1 {
+  background: #000;
+  border-radius: 10px;
+}
+#new2 {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+
+.n1 li a,#new1 a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Navigation bar 2 */
+
+.n2 ul {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  background-color: red;
+  font-family: "Nanum Gothic", sans-serif;
+  height: 60px;
+  color: white;
+}
+.n2 ul li {
+  padding: 10px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.n2 li img {
+  margin-left: 140px;
+  width: 135px;
+}
+
+.n2 li a{
+  text-decoration: none;
+  color: white;
+}
+
+.n2 li:hover{
+  font-weight: bolder;
+}
